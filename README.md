@@ -4,7 +4,9 @@ I wired a metro board express to get an LED to fade in and out by using curcuit 
 
 ## Servo 
 The goal of this assignment was to have a Servo sweep from 180 to 0 degrees using two wires to control the movements dirrection and when the wires are touched. This assignment was pretty simple with the exeption of pulsio which was a new and slightly difficult concept for me to grasp.  
-LCD_Button.py - using a button to have an LCD read the amount of counts 
+
+## LCD
+The Goal of this assignment was to display the amount of button presses on an LCD Screen. To use the LCD screen it requires you  using a button to have an LCD read the amount of counts 
 
 
 
