@@ -1,30 +1,37 @@
 # circuitpython
 
-### 2019-2020 // Engineering 3 // All pictures are from Tim Wiessman's github page
+### 2019-2020 // Engineering 3 // All Fritzing are from [Tim Wiessman's github page](https://github.com/tweissm35) 
+
 
 ## LED Fade
-# Description 
-The Goal of this assignment was to wire an LED to Fade in and out of brightness. I wired a metro board express to get an LED to fade in and out by using curcuit python. Learning this new code came with difficulties assignment just because I had never used curcuit python before and figureing it out was difficult, especially the duty cycles. 
+#### Description 
+The Goal of this assignment was to wire an LED to Fade in and out of brightness. I wired a metro board express to get an LED to fade in and out by using curcuit python. Learning this new code came with difficulties. I had to learn how to write 'while true' statements which are similar to 'if then' statements in java script. I had to import libraries such as Pulsio and Digitalio in order for the code to opperate. I had to incorporate PWM and duty cycles which were very difficult. 
 
-# Fritzing 
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 
-# Lessons Learned
+#### Lessons Learned
 PWM is important for the code to function. Here is a fun link [Circuitpython PWM link](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
 
 Understanding Duty cycles and how they fit into PWM is crucial heres another helpful link  [Circuitpython dutycycle link](https://circuitpython.readthedocs.io/en/3.x/shared-bindings/pulseio/PWMOut.html)
 
 
 ## Servo 
-The goal of this assignment was to have a Servo sweep from 180 to 0 degrees using two wires to control the movements dirrection and when the wires are touched. This assignment was pretty simple with the exeption of pulsio which was a new and slightly difficult concept for me to grasp. 
+#### Description 
+The goal of this assignment was to have a Servo sweep from 180 to 0 degrees using two wires to control the dirrection when the wires are touched. I started my code by incorporating pulsio into my code which was a new library for me. I then used pulsio to create a PWMout object on pin A2. I used touchio to create an object for servo. I then used a "while true' statement to have the servo spin one way if it is above an angle of 180 and the other direction if the angle is below 180.
 
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/servo.jpg" width="350">
 
+
+#### Lessons Learned
+I had trouble with the 'if' statements in this, I learned that I had to contain all of the information about the angle under my object for touchio and its pin to specify when one wire was touched it would move in one dirrection and when the other was touched it would move in the other. 
 
 ## LCD
 The Goal of this assignment was to display the amount of button presses on an LCD Screen. To use the LCD screen it requires you  using a button to have an LCD read the amount of counts. Using my code from last year this assignment wasn't too difficult it did teach me how to only extract certain parts that I needed from a library. 
 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="350">
+
 
 
 ## Photo Interrupter
