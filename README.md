@@ -22,20 +22,28 @@ Understanding Duty cycles and how they fit into PWM is crucial heres another hel
 
 ## Servo 
 #### Description 
-The goal of this assignment was to have a Servo sweep from 180 to 0 degrees using two wires to control the dirrection when the wires are touched. I started my code by incorporating pulsio into my code which was a new library for me. I then used pulsio to create a PWMout object on pin A2. I used touchio to create an object for servo. I then used a "while true' statement to have the servo spin one way if it is above an angle of 180 and the other direction if the angle is below 180.
+The purpose of this assignment was to wire a Servo to a Metro express board and code it useing circuitpython to sweep from 180 to 0 degrees and have it controlled by two wires that when one is touched it will move. you will need to use imports such as 'pulsio' 'touchio'. You also need to incorportate PWMout. I used pulsio to create a PWMout object on pin A2. I used touchio to create an object for servo. I then used a "while true' statement to have the servo spin one way if it is above an angle of 180 and the other direction if the angle is below 180.
 
 #### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/servo.jpg" width="350">
 
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
 #### Lessons Learned
-I had trouble with the 'if' statements in this, I learned that I had to contain all of the information about the angle under my object for touchio and its pin to specify when one wire was touched it would move in one dirrection and when the other was touched it would move in the other. 
+ I started my code by incorporating pulsio into my code which was a new library for me. I had trouble with the 'if' statements in this, I learned that I had to contain all of the information about the angle under my object for touchio and its pin to specify when one wire was touched it would move in one dirrection and when the other was touched it would move in the other. 
 
 ## LCD
-The Goal of this assignment was to display the amount of button presses on an LCD Screen. To use the LCD screen it requires you  using a button to have an LCD read the amount of counts. Using my code from last year this assignment wasn't too difficult it did teach me how to only extract certain parts that I needed from a library. 
+#### Description 
+In this assignment I had to wire a button and an LCD with backpack to my Metro and when the button is pressed it displays the amount of button presses on an LCD Screen as well as in the serial monitor. Using my java code  from last year I modeled my python code off of it. 
 
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="350">
 
+
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
+
+#### Lessons Learned
+I had difficulties only extracting certain parts that I needed from a library. I used this [video](https://www.youtube.com/watch?v=yoW2jHoVdug) to learn how to unzip files and extract certain documents. 
 
 
 ## Photo Interrupter
