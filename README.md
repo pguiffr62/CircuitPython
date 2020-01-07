@@ -1,16 +1,18 @@
 # circuitpython
 
-### 2019-2020 // Engineering 3 // All Fritzing are from [Tim Wiessman's github page](https://github.com/tweissm35) 
+### 2019-2020 // Engineering 3  
 
 
 ## LED Fade
 #### Description 
-The Goal of this assignment was to wire an LED to Fade in and out of brightness. I wired a metro board express to get an LED to fade in and out by using curcuit python. Learning this new code came with difficulties. I had to learn how to write 'while true' statements which are similar to 'if then' statements in java script. I had to import libraries such as Pulsio and Digitalio in order for the code to opperate. I had to incorporate PWM and duty cycles which were very difficult. 
+The Goal of this assignment was to connect a metor express board and wiring an LED to a 220 resistor and have it Fade in and out of brightness. I wired an LED to my Metro board connecting the LED to a 220 resistor and coded it with a new language curcuit python to have it fade in and out. I used duty cycles and PWM in my code in order for it to work.  
 
 #### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
-
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
 #### Lessons Learned
+Learning this new code came with difficulties. I had to learn how to write 'while true' statements which are similar to 'if then' statements in java script. I had to import libraries such as Pulsio and Digitalio in order for the code to opperate. I had to incorporate PWM and duty cycles which were very difficult. 
+
 PWM is important for the code to function. Here is a fun link [Circuitpython PWM link](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
 
 Understanding Duty cycles and how they fit into PWM is crucial heres another helpful link  [Circuitpython dutycycle link](https://circuitpython.readthedocs.io/en/3.x/shared-bindings/pulseio/PWMOut.html)
