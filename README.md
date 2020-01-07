@@ -1,4 +1,4 @@
-# circuitpython
+# Circuitpython Projects
 
 ### 2019-2020 // Engineering 3  
 
