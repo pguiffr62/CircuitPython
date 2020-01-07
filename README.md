@@ -34,7 +34,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 
 ## LCD
 #### Description 
-In this assignment I had to wire a button and an LCD with backpack to my Metro and when the button is pressed it displays the amount of button presses on an LCD Screen as well as in the serial monitor. Using my java code  from last year I modeled my python code off of it. 
+In this assignment I had to wire a button and an LCD with backpack to my Metro and when the button is pressed it displays the amount of button presses on an LCD Screen as well as in the serial monitor. Using my java code from last year I modeled my python code off of it. I created a 'while true' statement that said if the button value is 1 (pushed) then it counts and if it is 0 (not Pushed) then it doesnt show on the LCD. 
 
 #### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="350">
