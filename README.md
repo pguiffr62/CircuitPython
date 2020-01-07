@@ -1,4 +1,4 @@
-# Circuitpython Projects Assignments
+# Circuitpython Assignments
 
 ### 2019-2020 // Engineering 3  
 
