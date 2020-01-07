@@ -3,9 +3,16 @@
 ### 2019-2020 // Engineering 3 // All pictures are from Tim Wiessman's github page
 
 ## LED Fade
-I wired a metro board express to get an LED to fade in and out by using curcuit python. I had difficulties with this assignment just because I had never used curcuit python before and figureing it out was difficult, especially the duty cycles. 
+# Description 
+The Goal of this assignment was to wire an LED to Fade in and out of brightness. I wired a metro board express to get an LED to fade in and out by using curcuit python. Learning this new code came with difficulties assignment just because I had never used curcuit python before and figureing it out was difficult, especially the duty cycles. 
 
+# Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
+
+# Lessons Learned
+PWM is important for the code to function. Here is a fun link [Circuitpython PWM link](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
+
+Understanding Duty cycles and how they fit into PWM is crucial heres another helpful link  [Circuitpython dutycycle link](https://circuitpython.readthedocs.io/en/3.x/shared-bindings/pulseio/PWMOut.html)
 
 
 ## Servo 
