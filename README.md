@@ -9,7 +9,9 @@ The Goal of this assignment was to connect a metor express board and wiring an L
 
 #### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
+
 Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
+
 #### Lessons Learned
 Learning this new code came with difficulties. I had to learn how to write 'while true' statements which are similar to 'if then' statements in java script. I had to import libraries such as Pulsio and Digitalio in order for the code to opperate. I had to incorporate PWM and duty cycles which were very difficult. 
 
