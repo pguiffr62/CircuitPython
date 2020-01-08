@@ -47,31 +47,63 @@ I had difficulties only extracting certain parts that I needed from a library. I
 
 
 ## Photo Interrupter
-Using a photo interupter wired to a Metro Board Express I counted the amount of times the sensors were interrupted using the serial monitor. I had problems with it printing the vaule continuously and not every 4 seconds. I fixed this by creating a variable equal to 4 and using another variable with the code time.time to solve my problem. 
+#### Description 
+Using a photo interupter wired to a Metro Board Express I counted the amount of times the sensors were interrupted using the serial monitor. Using a counter function I counted the ammount of interupts. 
 
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/photointerrupter.jpg" width="350">
 
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
-## Distance Sensor
-In this assignment I wired up a distance sensor to sense the distance of an object from it, much like in our ultrasonic robot project from freshmen year. However there was the aditional challenge in this assignment to have the Neopixel on the Metro to light up. When the object was detected close it was red and the farther away it got it went through the rainbow, very pretty! This required me to use mapping in my code which wasnt that hard but new so I had to do a lot of googling of how to represent each color in my code. 
+#### Lessons Learned
+I had problems with it printing the vaule continuously and not every 4 seconds. I fixed this by creating a variable equal to 4 and using another variable with the code 'time.time' to solve my problem. 
 
+## Distance Sensor and Neopixle
+#### Description 
+In this assignment I wired up a distance sensor to my Metro to sense the distance of an object from it, much like in our ultrasonic robot project from freshmen year. However there was the aditional challenge in this assignment to have the Neopixel on the Metro to light up. When the object was detected close it was red and the farther away it got it went through the rainbow, very pretty! This required me to use mapping in my code and understanding how to create colors in code.
+
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/ultrasonicsensor.jpg" width="350">
 
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
-## Classes, Objects, and Modules 
-Here I had to make a class that would set variables and functions that would make prexisiting code on canvas to work. This code enabled two RBG LEDs to fade through all colors of rainbow, once again pretty! Making classes was difficult and hard to get used to but once I figured out what to put in def_int_ i was good. 
+#### Lessons Learned
+Although mapping wasn't too difficult to understand you need to have the right resources so heres a [link](link.https://circuitpython.readthedocs.io/projects/simpleio/en/latest/api.html#simpleio.map_range) Getting the colors right took some research too so heres another [link](https://htmlcolorcodes.com/)
 
+
+## Classes, Objects, and Modules
+#### Description 
+Here I had to make a class that would set variables and functions that would make prexisiting code on canvas to work. This code enabled two RBG LEDs to fade through all colors of rainbow, once again pretty!
+
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/rgb.jpg" width="350">
 
 
-## Hello vs Code
-I wrote simple Hello world code into a new program called VS Code and committed and pushed it to Git Hub straight from there. It was difficult to learn how to git add and commit but once I realized how to connect Git Hub and Vs code it was simple simple click the plus sign to add my code and ctrl enter with a comment of what I did to commit to my git hub repository. 
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)  
 
+#### Lessons Learned
+Making classes was difficult and hard to get used to but once I figured out that what I put in def_int_  needs to be true and will always be running it made a lot more sense. 
+
+
+## Hello vs Code
+#### Description
+I wrote simple Hello world code into a new program called VS Code and uploaded it to my metro board and then committed and pushed it to Git Hub straight from VS code. I then made a comment of what i had changed.
+
+#### Lessons Learned
+It was difficult to learn how to 'git add' and 'commit' but once I realized how to connect Git Hub and Vs code it was a simple click the 'plus sign' to add my code and 'ctrl enter' with a comment of what I did to commit to my git hub repository. 
 
 ## Fancy LED
-This combined both the Hello vs Code and Classes, Objects and Modules assignments. This assignment was to wire 6 leds to turn on id a specific order(alternate, chase, blink, sparkle). There was exisiting code in canvas which I hade to make a class code for. The ussage of for statements for repeated code helped to clean up code. 
+#### Description
+This combined both the Hello vs Code and Classes, Objects and Modules assignments. In this assignment I wired 6 leds to turn on in specific patterns(alternate, chase, blink, sparkle). There was exisiting code in canvas which I hade to make work by creating a class code in VS code where I detailed the actions of alternate, chase, blink, and sparkle. 
 
 
+#### Fritzing 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fancyLED.jpg" width="350">
 
+Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)   
+
+#### Lessons Learned
+I learned that the ussage of 'for loops' for repeating sections of code helped to clean up my code. I learned that to structure my 'for loop' like this: for i in range(0,5) where 'i' is any variable and 'range' regulates how many times it will repeat. 'For loops' are greate for randomizing code with if statements.  
+
+I refferenced [Lily Wielar's github page](https://github.com/lwielar29/CircutPython#fancy-led) to recall what we did in Fancy LED. 
 
