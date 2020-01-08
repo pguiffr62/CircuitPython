@@ -2,7 +2,7 @@
 
 ### 2019-2020 // Engineering 3  
 
-##Table of Contents
+## Table of Contents
 1. [LED Fade](#LED-Fade)
 2. [Servo Touch](#Servo-Touch)
 3. [LCD](#LCD)
@@ -28,6 +28,8 @@ PWM is important for the code to function. Here is a fun link [Circuitpython PWM
 
 Understanding Duty cycles and how they fit into PWM is crucial heres another helpful link  [Circuitpython dutycycle link](https://circuitpython.readthedocs.io/en/3.x/shared-bindings/pulseio/PWMOut.html)
 
+#### Code
+My LED fade code[link](https://github.com/pguiffr62/CircuitPython/blob/master/LED_fade.py)
 
 ## Servo Touch
 #### Description 
@@ -40,6 +42,9 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 
 #### Lessons Learned
  I started my code by incorporating pulsio into my code which was a new library for me. I had trouble with the 'if' statements in this, I learned that I had to contain all of the information about the angle under my object for touchio and its pin to specify when one wire was touched it would move in one dirrection and when the other was touched it would move in the other. 
+ 
+#### Code
+My servo touch code [link](https://github.com/pguiffr62/CircuitPython/blob/master/SERVO_touch.py)
 
 ## LCD
 #### Description 
@@ -54,6 +59,8 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 #### Lessons Learned
 I had difficulties only extracting certain parts that I needed from a library. I used this [video](https://www.youtube.com/watch?v=yoW2jHoVdug) to learn how to unzip files and extract certain documents. 
 
+#### Code
+My LCD code [link](https://github.com/pguiffr62/CircuitPython/blob/master/LCD_Button.py)
 
 ## Photo Interrupter
 #### Description 
@@ -66,6 +73,9 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 
 #### Lessons Learned
 I had problems with it printing the vaule continuously and not every 4 seconds. I fixed this by creating a variable equal to 4 and using another variable with the code 'time.time' to solve my problem. 
+
+#### Code
+My photo interrupter code [link](https://github.com/pguiffr62/CircuitPython/blob/master/photointerrupter.py)
 
 ## Distance Sensor and Neopixle
 #### Description 
@@ -80,6 +90,8 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 Although mapping wasn't too difficult to understand you need to have the right resources so heres a 
 [link](https://circuitpython.readthedocs.io/projects/simpleio/en/latest/api.html#simpleio.map_range) Getting the colors right took some research too so heres another [link](https://htmlcolorcodes.com/)
 
+#### Code
+My distance sensor code [link](https://github.com/pguiffr62/CircuitPython/blob/master/Neopixle.py)
 
 ## Classes, Objects, and Modules
 #### Description 
@@ -94,6 +106,8 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 #### Lessons Learned
 Making classes was difficult and hard to get used to but once I figured out that what I put in def_int_  needs to be true and will always be running it made a lot more sense. 
 
+#### Code
+[link](https://github.com/pguiffr62/CircuitPython/blob/master/classesobjectsandmodules.py)
 
 ## Hello vs Code
 #### Description
@@ -101,6 +115,9 @@ I wrote simple Hello world code into a new program called VS Code and uploaded i
 
 #### Lessons Learned
 It was difficult to learn how to 'git add' and 'commit' but once I realized how to connect Git Hub and Vs code it was a simple click the 'plus sign' to add my code and 'ctrl enter' with a comment of what I did to commit to my git hub repository. 
+
+#### Code
+[link](https://github.com/pguiffr62/CircuitPython/blob/master/hello_vs_code.py)
 
 ## Fancy LED
 #### Description
@@ -116,3 +133,6 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 I learned that the ussage of 'for loops' for repeating sections of code helped to clean up my code. I learned that to structure my 'for loop' like this: for i in range(0,5) where 'i' is any variable and 'range' regulates how many times it will repeat. 'For loops' are greate for randomizing code with if statements.  
 
 I refferenced [Lily Wielar's github page](https://github.com/lwielar29/CircutPython#fancy-led) to recall what we did in Fancy LED. 
+
+#### Code
+[link](https://github.com/pguiffr62/CircuitPython/blob/master/fancyLED.py)
