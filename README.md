@@ -4,7 +4,13 @@
 
 ##Table of Contents
 1. [LED Fade](#LED-Fade)
-2. [My second title](#my-second-title)
+2. [Servo Touch](#Servo-Touch)
+3. [LCD](#LCD)
+4. [Photo Interrupter](#Photo-Interrupter)
+5. [Distance Sensor and Neopixle](#Distance-Sensor-and-Neopixle)
+6. [Classes, Objects, and Modules](#Classes,-Objects,-and-Modules)
+7. [Hello vs Code](#Hello-vs-Code)
+8. [Fancy LED](#Fancy-LED)
 
 ## LED Fade
 #### Description 
@@ -23,7 +29,7 @@ PWM is important for the code to function. Here is a fun link [Circuitpython PWM
 Understanding Duty cycles and how they fit into PWM is crucial heres another helpful link  [Circuitpython dutycycle link](https://circuitpython.readthedocs.io/en/3.x/shared-bindings/pulseio/PWMOut.html)
 
 
-## Servo 
+## Servo Touch
 #### Description 
 The purpose of this assignment was to wire a Servo to a Metro express board and code it useing circuitpython to sweep from 180 to 0 degrees and have it controlled by two wires that when one is touched it will move. you will need to use imports such as 'pulsio' 'touchio'. You also need to incorportate PWMout. I used pulsio to create a PWMout object on pin A2. I used touchio to create an object for servo. I then used a "while true' statement to have the servo spin one way if it is above an angle of 180 and the other direction if the angle is below 180.
 
@@ -110,4 +116,3 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 I learned that the ussage of 'for loops' for repeating sections of code helped to clean up my code. I learned that to structure my 'for loop' like this: for i in range(0,5) where 'i' is any variable and 'range' regulates how many times it will repeat. 'For loops' are greate for randomizing code with if statements.  
 
 I refferenced [Lily Wielar's github page](https://github.com/lwielar29/CircutPython#fancy-led) to recall what we did in Fancy LED. 
-
