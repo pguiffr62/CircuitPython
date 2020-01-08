@@ -69,7 +69,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 
 #### Lessons Learned
 Although mapping wasn't too difficult to understand you need to have the right resources so heres a 
-[link](link.https://circuitpython.readthedocs.io/projects/simpleio/en/latest/api.html#simpleio.map_range) Getting the colors right took some research too so heres another [link](https://htmlcolorcodes.com/)
+[link](https://circuitpython.readthedocs.io/projects/simpleio/en/latest/api.html#simpleio.map_range) Getting the colors right took some research too so heres another [link](https://htmlcolorcodes.com/)
 
 
 ## Classes, Objects, and Modules
