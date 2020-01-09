@@ -132,7 +132,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 #### Lessons Learned
 I learned that the ussage of 'for loops' for repeating sections of code helped to clean up my code. I learned that to structure my 'for loop' like this: for i in range(0,5) where 'i' is any variable and 'range' regulates how many times it will repeat. 'For loops' are greate for randomizing code with if statements.  
 
-I refferenced [Lily Wielar's github page](https://github.com/lwielar29/CircutPython#fancy-led) to recall what we did in Fancy LED. 
+I referenced [Lily Wielar's github page](https://github.com/lwielar29/CircutPython#fancy-led) to recall what we did in Fancy LED. 
 
 #### Code
 [link](https://github.com/pguiffr62/CircuitPython/blob/master/fancyLED.py)
