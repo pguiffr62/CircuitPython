@@ -57,7 +57,7 @@ In this assignment I had to wire a button and an LCD with backpack to my Metro a
 Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
 #### Lessons Learned
-I had difficulties only extracting certain parts that I needed from a library. I used this [video](https://www.youtube.com/watch?v=yoW2jHoVdug) to learn how to unzip files and extract certain documents. 
+I had difficulties only extracting certain parts that I needed from a library. I used this [video](https://www.youtube.com/watch?v=2L6qtSyW94E) to learn how to unzip files and extract certain documents. 
 
 #### Code
 My LCD code [link](https://github.com/pguiffr62/CircuitPython/blob/master/LCD_Button.py)
